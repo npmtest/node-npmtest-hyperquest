@@ -1,6 +1,6 @@
 # npmtest-hyperquest
 
-#### test coverage for  [hyperquest (v2.1.2)](https://github.com/substack/hyperquest)  [![npm package](https://img.shields.io/npm/v/npmtest-hyperquest.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-hyperquest) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-hyperquest.svg)](https://travis-ci.org/npmtest/node-npmtest-hyperquest)
+#### basic test coverage for  [hyperquest (v2.1.2)](https://github.com/substack/hyperquest)  [![npm package](https://img.shields.io/npm/v/npmtest-hyperquest.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-hyperquest) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-hyperquest.svg)](https://travis-ci.org/npmtest/node-npmtest-hyperquest)
 
 #### make streaming http requests
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-hyperquest/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-hyperquest/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-hyperquest/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-hyperquest/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-hyperquest/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-hyperquest/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-hyperquest/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-hyperquest/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-hyperquest/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-hyperquest/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-hyperquest/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-hyperquest/build/coverage.html/index.html)
 
@@ -92,7 +92,8 @@
     "scripts": {
         "test": "tape test/*.js"
     },
-    "version": "2.1.2"
+    "version": "2.1.2",
+    "bin": {}
 }
 ```
 
